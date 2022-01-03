@@ -1,0 +1,7 @@
+"0",""
+"0",""
+"0","athletes <- read.csv(""athletes.csv"", head = TRUE, sep = ';')"
+"0",""
+"0","athletes_results <- left_join(athletes,results, by = 'athlete')"
+"0",""
+"0","# left join was used because it returns all the rows from the original table even if they don't have matching rows in another table"

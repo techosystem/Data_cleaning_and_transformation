@@ -1,0 +1,8 @@
+"0",""
+"0","# To get the average height and average weight of male participants"
+"0","heights_weights%>%"
+"0","  select(athlete, sex, heights, weights) %>%"
+"0","  filter(sex == ""Male"") %>% "
+"0","  distinct(athlete, .keep_all = TRUE) %>% "
+"0","  summarise(Avg_height = mean(heights, na.rm = TRUE),"
+"0","            Avg_weight = mean(weights, na.rm = TRUE))"

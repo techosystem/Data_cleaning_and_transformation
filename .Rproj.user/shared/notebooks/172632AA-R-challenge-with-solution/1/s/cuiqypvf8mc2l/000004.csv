@@ -1,0 +1,6 @@
+"0",""
+"0","#To get the age of the athlete at the opening of the olympic games"
+"0",""
+"0","df_age <- birthday%>%"
+"0","  mutate (age = round(interval(birthday, games_opened) / dyears(1)))"
+"0","df_age"

@@ -1,0 +1,22 @@
+
+library(tidyverse)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+
+athletes <- read_csv('athletes.csv')
+view(athletes)
+
+games <- read.table(file = 'games.tsv', sep = '\t', header = TRUE)
+view(games)
+
+
+results <- read_csv('results.csv')
+view(results)
+
+dfnew <- filter(results, country[1:10])
+
+as_tibble (iris)
+
+tibble (x = 5:15, y = 2*x, z = x+y )
+
+tb <- tibble(` ` = 'Space', `20` = 'number', `:)` = 'smile')
+

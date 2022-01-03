@@ -1,0 +1,7 @@
+"0","germany <- results %>%
+  select(country, season)%>%
+  filter(country == 'Germany' & season == 'Winter')%>%
+  summarise(count = n())
+"
+"2","Error in select(., country, season) : object 'results' not found
+"

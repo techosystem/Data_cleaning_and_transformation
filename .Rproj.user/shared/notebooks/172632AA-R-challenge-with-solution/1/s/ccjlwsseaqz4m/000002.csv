@@ -1,0 +1,18 @@
+"0",""
+"0",""
+"0","athletes <- athletes <- read_delim(""athletes.csv"", delim = "";"", "
+"0","    escape_double = FALSE, trim_ws = TRUE)"
+"1","[1m[1mRows: [1m[22m[34m[34m141857[34m[39m [1m[1mColumns: [1m[22m[34m[34m8[34m[39m
+"
+"1","[36m--[39m [1m[1mColumn specification[1m[22m [36m-------------------------------------------------------[39m
+[1mDelimiter:[22m "";""
+[31mchr[39m (7): name, sex, born, died, affiliations, title, measurements
+[32mdbl[39m (1): athlete
+"
+"1","
+[36mi[39m Use [38;5;251m[48;5;235m[38;5;251m[48;5;235m`spec()`[48;5;235m[38;5;251m[49m[39m to retrieve the full column specification for this data.
+[36mi[39m Specify the column types or set [38;5;251m[48;5;235m[38;5;251m[48;5;235m`show_col_types = FALSE`[48;5;235m[38;5;251m[49m[39m to quiet this message.
+"
+"0","results_athletes <- inner_join(results, athletes, by = ""athlete"")"
+"0",""
+"0","# Inner join was used because I only want results where we know which athlete participated"

@@ -1,0 +1,4 @@
+"0","#To display different countries for which the athlete has started"
+"0","athletes_results_games%>%"
+"0","    filter(athlete == 59866)%>%"
+"0","    select(country)"

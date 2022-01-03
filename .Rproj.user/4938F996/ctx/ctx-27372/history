@@ -1,0 +1,354 @@
+library(tidyverse)
+athletes <- read_csv('atheletes.csv')
+athletes <- read_csv('athletes.csv')
+view(athletes)
+athletes <- read_csv('athletes.csv', header = TRUE, sep = '\t')
+View(athletes)
+games <- read.table(file = 'games.tsv', sep = '\t', header = TRUE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+games <- read.table(file = 'games.tsv', sep = '\t', header = TRUE)
+view(games)
+results <- read_csv('results.csv')
+view(results)
+athletes <- read_csv('athletes.csv', sep = '|')
+athletes <- read_csv('athletes.csv', sep = ',')
+athletes <- read_csv('athletes.csv')
+knitr::opts_chunk$set(warning=FALSE, message = FALSE)
+library(tidyverse)
+bibrary(lubridate)
+library(lubridate)
+results <- read_csv(File = 'results.csv)
+results <- read_csv(File = 'results.csv')
+results <- read_csv('results.csv')
+results <- read_csv(file = 'results.csv')
+results <- read_csv(file = 'results.csv')
+ggplot(results, aes(country))
+results <- read_csv(file = 'results.csv')
+ggplot(results, aes(country)) +geom_bar()
+dfnew <- filter(results, country(1.10))
+dfnew <- filter(results, country(1:10))
+dfnew <- filter(results, country[1:10])
+ggplot(results, aes(country, fill = country)) +geom_bar(
+results <- read_csv(file = 'results.csv')
+ggplot(results, aes(country, fill = country)) +geom_bar(
+ggplot(results, aes(country, fill = country)) +geom_bar()
+ggplot(results, aes(country, color = country)) +geom_bar()
+ggplot(results, aes(country)) +geom_bar()
+#ggplot(results, aes(country)) +geom_bar()
+nrow(filter(results, n_country %in% country))
+#ggplot(results, aes(country)) +geom_bar()
+nrow(filter(results, country %in% country))
+#ggplot(results, aes(country)) +geom_bar()
+nrow(filter(results, country == 'Nigeria))
+#ggplot(results, aes(country)) +geom_bar()
+nrow(filter(results, country == 'Nigeria'))
+#ggplot(results, aes(country)) +geom_bar()
+count(results, 'country')
+#ggplot(results, aes(country)) +geom_bar()
+count(results, 'Nigeria' %in% country)
+#ggplot(results, aes(country)) +geom_bar()
+count(results, filter('Nigeria' %in% country))
+#ggplot(results, aes(country)) +geom_bar()
+df <- c(results, filter('Nigeria' %in% country))
+filter(results, country == 'Nigeria)
+filter(results, country == 'Nigeria')
+filter(results, country == 'Nigeria')
+filter(results, country == 'Nigeria')
+df <- c(results, filter('Nigeria' %in% c))
+results %>% filter( country, count(country))
+results %>% filter(results, country)
+results %>% filter(results, count(country))
+results %>% filter(results, count(country))
+results %>% filter(.data, count(country))
+results %>% filter(.data, countr
+results %>% filter(.data, country)
+results %>% filter(.data, country)
+results %>% count(country)
+results %>% count(country)%>%
+summarise(results, country_1 = count(country))
+results %>% count(country)%>%
+summarise(results, country = count(country))
+results %>% count(country)%>%
+summarise(results, country = count(country, na.rm = TRUE))
+results <- read_csv(file = 'results.csv')
+#results %>% count(country)%>%
+result <- results%>%
+group_by(country)%>%
+summarise(count = n())
+View(result)
+result %>% filter(result, count > 438)
+result <- filter(result, count > 438)
+View(result)
+result_10 <- filter(result, count > 1000)
+result_10 <- filter(result, count > 2000)
+result_10 <- filter(result, count > 4000)
+result_10 <- filter(result, count > 6000)
+View(result_10)
+result_10 <- filter(result, count > 7000)
+View(result_10)
+#results %>% count(country)%>%
+result <- results%>%
+group_by(count)%>%
+summarise(count = n())
+#results %>% count(country)%>%
+result <- results%>%
+group_by(country)%>%
+summarise(count = n())
+result_10 <- group_by(count) %>%
+filter(result, count > 7000)
+result_10 <- result %>%
+group_by(count) %>%
+filter(result, count > 7000)
+result_10 <- result %>%
+group_by(count) %>%
+filter( count > 7000)
+View(result_10)
+result_new <- result %>%
+group_by(count) %>%
+filter( count > 7000)
+View(result_new)
+result_new <- result %>%
+group_by(count) %>%
+filter( count > 7000)%>%
+arange(desc(count))
+result_new <- result %>%
+group_by(count) %>%
+filter( count > 7000)%>%
+arrange(desc(count))
+View(result_new)
+result_new <- result %>%
+group_by(count) %>%
+filter( count = max(count))%>%
+arrange(desc(count))
+result_new <- result %>%
+group_by(count) %>%
+filter( count == max(count))%>%
+arrange(desc(count))
+result_new <- result %>%
+group_by(count) %>%
+filter( count > 7000)%>%
+arrange(desc(count))
+result_new <- result %>%
+filter( count > 7000)%>%
+arrange(desc(count))
+#results %>% count(country)%>%
+result <- results%>%
+group_by(country)%>%
+summarise(count = n()) %>%
+filter(count > 7000) %>%
+arrange(desc(count))
+View(result)
+#results %>% count(country)%>%
+result <- results%>%
+#group_by(country)%>%
+summarise(count = n()) %>%
+filter(count > 7000) %>%
+arrange(desc(count))
+#results %>% count(country)%>%
+result <- results%>%
+group_by(country)%>%
+summarise(count = n()) %>%
+filter(count > 7000) %>%
+arrange(desc(count))
+#results %>% count(country)%>%
+result <- results%>%
+group_by(country)%>%
+summarise(count = n()) %>%
+#filter(count > 7000) %>%
+arrange(desc(count))
+#results %>% count(country)%>%
+result <- results%>%
+group_by(country)%>%
+summarise(count = n()) %>%
+#filter(count > 7000) %>%
+select(count(1:9))
+#results %>% count(country)%>%
+result <- results%>%
+group_by(country)%>%
+summarise(count = n()) %>%
+#filter(count > 7000) %>%
+filter(count.length >9)
+#results %>% count(country)%>%
+result <- results%>%
+group_by(country)%>%
+summarise(count = n()) %>%
+#filter(count > 7000) %>%
+arrange(desc(count))
+result %>% filter(count.length > 10)
+result %>% slice(1:10)
+#results %>% count(country)%>%
+result <- results%>%
+group_by(country)%>%
+summarise(count = n()) %>%
+#filter(count > 7000) %>%
+slice(1:10) %>%
+arrange(desc(count))
+#results %>% count(country)%>%
+resul <- results%>%
+group_by(country)%>%
+summarise(count = n()) %>%
+#filter(count > 7000) %>%
+slice(1:10) %>%
+arrange(desc(count))
+#results %>% count(country)%>%
+result_10 <- results%>%
+group_by(country)%>%
+summarise(count = n()) %>%
+#filter(count > 7000) %>%
+slice(1:10) %>%
+arrange(desc(count))
+View(result_10)
+View(resul)
+#results %>% count(country)%>%
+result_10 <- results%>%
+group_by(country)%>%
+summarise(count = n()) %>%
+#filter(count > 7000) %>%
+arrange(desc(count))%>%
+slice(1:10)
+View(result_10)
+results %>% count(country)
+result_all %>% count(country)
+result_all >- result %>% count(country)
+result_all <- result %>% count(country)
+View(result_all)
+result_all <- results %>% count(country)
+View(result_all)
+View(result_all)
+result_all <- results %>% count(country) %>%
+summarise(count(n))
+result_all <- results %>% count(country) %>%
+summarise(count(country))
+result_all <- results %>% count(country)
+results %>% count('Germany')
+results %>% count('Germany')%>%
+group_by(country)
+results %>% count(contry)%>%
+group_by(country)
+results %>% count(country)%>%
+group_by(country)
+results %>% count(country)%>%
+group_by(country)%>%
+mutate('Germany')
+results %>% count(country)%>%
+group_by(country)%>%
+filter('Germany')
+results %>% count(country)%>%
+group_by(country)%>%
+filter(country = 'Germany')
+results %>% count(country)%>%
+group_by(country)%>%
+filter(country == 'Germany')
+results %>% count(country)%>%
+group_by(country)%>%
+filter(country == 'Germany' & season == 'Winter')
+results %>% count(country)%>%
+group_by(country)%>%
+select(country,season)
+#filter(country == 'Germany' & season == 'Winter')
+view(results)
+results %>% count(country)%>%
+group_by(country)%>%
+select(results, country,season)
+results %>% count(country)%>%
+group_by(country)%>%
+select(country,season)
+results %>% count(country)%>%
+group_by(country)%>%
+select(season)
+results %>%
+group_by(country)%>%
+select(season)
+results %>%
+group_by(country)%>%
+select(season =='Winter')
+results %>%
+group_by(country)%>%
+#select(season =='Winter')
+filter(country == 'Germany' & season == 'Winter')
+results %>%
+#group_by(country)%>%
+select(country,season) &>&
+results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == 'Germany' & season == 'Winter')
+dfNew <- results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == 'Germany' & season == 'Winter')
+View(dfNew)
+dfNew <- results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == 'Germany' & season == 'Winter')%>%
+summarise(count =n())
+View(dfNew)
+dfNew <- results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == 'Germany' & season == 'Winter')%>%
+summarise(count =n())
+results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == 'Germany' & season == 'Winter')
+results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == 'Germany' & season == 'Winter')%>%
+summarise(count = n())
+results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == 'Germany West' & season == 'Winter')%>%
+summarise(count = n())
+results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == 'Germany' & season == 'Winter')%>%
+summarise(count = n())
+results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == 'West Germany' & season == 'Winter')%>%
+summarise(count = n())
+results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == 'East Germany' & season == 'Winter')%>%
+summarise(count = n())
+results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == 'Germany' & season == 'Winter')%>%
+summarise(count = n())
+results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == 'Germany'|'West Germany' & season == 'Winter')%>%
+summarise(count = n())
+results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == ('Germany'|'West Germany') & season == 'Winter')%>%
+summarise(count = n())
+results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == ('Germany'||'West Germany') & season == 'Winter')%>%
+summarise(count = n())
+results %>%
+#group_by(country)%>%
+select(country,season) %>%
+filter(country == ('Germany' or 'West Germany') & season == 'Winter')%>%
+germany_country <- results.join('Germany', 'West Geramany','East Germany')
+germany_country <- results(country)%>%
+summarise_all(funs(trimws(paste(., collapse = ''))))
+germany_country <- results%>%
+group_by(country)%>%
+summarise_all(funs(trimws(paste(., collapse = ''))))
+View(germany_country)
+View(germany_country)
+View(germany_country)
+View(germany_country)

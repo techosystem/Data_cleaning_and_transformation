@@ -1,0 +1,17 @@
+"0",""
+"0","#separate born variable into birthday and birth city variables"
+"0","birthday <- athletes_results_games%>%"
+"0","  separate(born, c(""birthday"", ""birth_city""), ""in"")%>%"
+"0","  mutate(birthday = dmy(birthday))"
+"2","Warning:"
+"2"," Expected 2 pieces. Additional pieces discarded in 36712 rows [6, 7, 30, 31, 77, 78, 111, 112, 119, 120, 121, 122, 123, 124, 129, 140, 142, 143, 154, 155, ...].
+"
+"2","Warning:"
+"2"," Expected 2 pieces. Missing pieces filled with `NA` in 41254 rows [28, 462, 463, 464, 465, 466, 467, 472, 498, 499, 500, 519, 522, 523, 524, 525, 526, 527, 528, 529, ...].
+"
+"2","Warning:"
+"2"," Problem with `mutate()` column `birthday`.
+[34mi[39m `birthday = dmy(birthday)`.
+[34mi[39m  3895 failed to parse.
+"
+"0","birthday"

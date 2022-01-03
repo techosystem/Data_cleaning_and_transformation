@@ -1,0 +1,3 @@
+"0","df_age <- birthday%>%"
+"0","  mutate (age = round(interval(birthday,games_opened)/dyears(1)))"
+"0","df_age"

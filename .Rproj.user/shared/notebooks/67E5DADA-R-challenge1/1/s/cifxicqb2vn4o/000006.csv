@@ -1,0 +1,6 @@
+"0","df_female_age <- df_age %>%"
+"0","  group_by(sport)%>%"
+"0","  filter(sex == ""Female"" & !is.na(age))%>%"
+"0","  summarize(avg_age = mean(age),n = n())%>%"
+"0","  arrange(avg_age)"
+"0","df_female_age[1:10,]"

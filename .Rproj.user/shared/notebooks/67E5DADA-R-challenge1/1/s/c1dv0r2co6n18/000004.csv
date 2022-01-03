@@ -1,0 +1,9 @@
+"0","athletes_results_games%>% "
+"0","  mutate(UID = paste(name, athlete, country)) %>%"
+"0","  distinct(UID, .keep_all=TRUE) %>%"
+"0","  group_by(name,athlete) %>%"
+"0","  summarise(name = first(name), countries = n()) %>%"
+"0","  arrange(countries) %>% "
+"0","  filter(countries >= 4)"
+"1","`summarise()` has grouped output by 'name'. You can override using the `.groups` argument.
+"

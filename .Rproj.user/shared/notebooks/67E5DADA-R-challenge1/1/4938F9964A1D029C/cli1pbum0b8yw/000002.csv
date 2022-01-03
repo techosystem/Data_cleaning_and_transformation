@@ -1,0 +1,11 @@
+"0",""
+"0","#separate the measurements attribute into heights and weights attributes"
+"0",""
+"0","heights_weights <- athletes_results %>%"
+"0","  separate(measurements, into =  c(""heights"", ""weights""), sep =""/"")%>%"
+"0","  mutate(heights = as.numeric(str_extract(heights, ""\\d+"")), "
+"0","         weights = as.numeric(str_extract(weights, ""\\d+"")))"
+"2","Warning:"
+"2"," Expected 2 pieces. Missing pieces filled with `NA` in 6706 rows [229, 230, 231, 232, 284, 285, 286, 464, 655, 656, 657, 658, 678, 757, 758, 800, 811, 820, 928, 932, ...].
+"
+"0","heights_weights"

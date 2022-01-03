@@ -1,0 +1,16 @@
+library(tidyverse)
+library(mdsr)
+library(lubridate)
+presidential
+
+presidential%>%
+  filter(year(start) >1973 & party == "Democratic")%>%
+  select(name)
+
+
+presidential%>%
+  mutate(elected = ifelse(elected %in% c(1962,1973), NA, elected))
+
+x <-c(2, 'dark', 4.67, "good", TRUE)
+sort(x)
+rename(x,y)

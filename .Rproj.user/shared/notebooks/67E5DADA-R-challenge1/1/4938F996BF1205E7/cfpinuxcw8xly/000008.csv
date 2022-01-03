@@ -1,0 +1,4 @@
+"0",""
+"0","dfnew <- athletes_results %>%"
+"0","     group_by(measurements) %>%"
+"0","     summarise (measurements = mean(measurements, na.rm = TRUE))"
